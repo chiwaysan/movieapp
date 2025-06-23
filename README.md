@@ -30,30 +30,39 @@ A React-based movie discovery app built with [Vite](https://vitejs.dev/) and the
 ```bash
 git clone https://github.com/your-username/movieapp.git
 cd movieapp
+```
 
-### 2. Install dependancies
+### 2. Install dependencies
+
 ```bash
 npm install
+```
 
-### 3. Get a TMDB API Key
-Sign up at https://www.themoviedb.org/
+### 3. Get a TMDb API Key
 
+Sign up at [https://www.themoviedb.org/](https://www.themoviedb.org/)  
 Go to your account > Settings > API > Generate an API key
 
 ### 4. Add your API key
-Open the src/api.js file and replace the placeholder with your actual TMDb API key:
-```bash
+
+Open the `src/api.js` file and replace the placeholder with your actual TMDb API key:
+
+```js
 // src/api.js
 export const API_KEY = "your_api_key_here";
+```
 
-### Run the app locally
+### 5. Run the app locally
+
 ```bash
 npm run dev
+```
 
-The app will be available at:
-http://localhost:5173
+The app will be available at:  
+[http://localhost:5173](http://localhost:5173)
 
 ### 6. Build for production
+
 ```bash
 npm run build
-
+```
