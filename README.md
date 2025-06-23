@@ -66,3 +66,7 @@ The app will be available at:
 ```bash
 npm run build
 ```
+
+## 🌐 Live Demo
+
+🚀 [Click here to view the deployed app](https://movieapp-chiwaysan.vercel.app)
